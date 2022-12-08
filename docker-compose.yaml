@@ -36,25 +36,6 @@ services:
   
   ### database servers ###  
   #cassandra#
-  cassandra:
-    image: cassandra:3.11.11
-    hostname: cassandra
-    ports:
-    - 9042:9042
-    #- 9160:9160
-    #- 7199:7199
-    #- 8778:8778
-
-    # environment:
-    # - CASSANDRA_START_RPC=true
-    # - CASSANDRA_SEEDS=cassandra
-    # - CASSANDRA_CLUSTER_NAME=mtech_cluster
-    ulimits:
-      memlock: -1
-      nproc: 32768
-      nofile: 100000
-    volumes:
-      - cassandra-data:/var/lib/cassandra
 
 
   #minio#
@@ -85,7 +66,7 @@ services:
 
   # neo4j#
   neo4j:
-    image: neo4j:latest
+    image: neo4j:4.4
     hostname: neo4j
     ports:
       - "7474:7474" #http
