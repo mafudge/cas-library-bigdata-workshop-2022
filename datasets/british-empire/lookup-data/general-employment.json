@@ -1,0 +1,29 @@
+{
+  "Fieldwork": [
+    "au jardin",
+    "cultivateur",
+    "cultivatrice",
+    "a la culture",
+    "a la houe",
+    "labourer",
+    "laboureuse",
+    "field"
+  ],
+  "Housework": [
+    "domestique",
+    "domestic",
+    "servant[e]",
+    "cuisiniere[cook]"
+  ],
+  "Not working": [
+    "point",
+    "sans employ/emploi",
+    "infirme[sick]",
+    "suragee[with or without an accent on the first e]",
+    "enfant[child, i.e. too young to work]"
+  ],
+  "Rented out": [
+    "a la loue",
+    "de loue"
+  ]
+}
