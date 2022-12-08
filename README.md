@@ -50,7 +50,7 @@ Clone this git repository:
 `$ git clone https://github.com/mafudge/cas_library_bigdata_workshop_2022.git`
 
 Change to the directory containing the git repository:
-`$ cd cas_library_bigdata_workshop_2022`
+`$ cd cas-library-bigdata-workshop-2022`
 
 There's one-time prep you must do after cloning the git repository.  Have dinner or go for a walk, as it can take some time to clone the images.
 
